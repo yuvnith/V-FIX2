@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <Button
+
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/Pbutton"
+        android:background="@drawable/plumb"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/Ebutton" />
+
+    <Button
+
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/Cbutton"
+        android:background="@drawable/carp"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/Pbutton" />
+
+    <Button
+
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/Cmbutton"
+        android:background="@drawable/computer"
+        android:layout_alignTop="@+id/Phbutton"
+        android:layout_alignLeft="@+id/Pbutton"
+        android:layout_alignStart="@+id/Pbutton" />
+
+    <Button
+
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/Abutton"
+        android:background="@drawable/acrepair"
+        android:layout_alignLeft="@+id/Cbutton"
+        android:layout_alignStart="@+id/Cbutton"
+        android:layout_alignBottom="@+id/Cmbutton" />
+
+    <Button
+
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/Ebutton"
+        android:background="@drawable/elec"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btlogout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#26ae90"
+        android:text="@string/btn_logout"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:id="@+id/Phbutton"
+        android:background="@drawable/photgrapher"
+        android:layout_below="@+id/Ebutton"
+        android:layout_alignLeft="@+id/Ebutton"
+        android:layout_alignStart="@+id/Ebutton"
+        android:layout_marginTop="29dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_marginTop="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
